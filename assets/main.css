@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  border: 0;
+  gap: 2vw;
+}
+
+header {
+  min-width: 100px;
+  min-height: 100px;
+  background-color: aquamarine;
+
+}
+
+aside {
+  min-width: 100px;
+  min-height: 100px;
+  background-color: gray;
+
+}
+
+main {
+  min-width: 100px;
+  min-height: 100px;
+  background-color: rgb(144, 183, 235);
+  padding: 1rem;
+
+}
+
+
+footer {
+  min-width: 100px;
+  min-height: 100px;
+  background-color: aquamarine;
+
+}
