@@ -29,11 +29,6 @@ body {
   border: 2vw;
 }
 
-.responsive {
-  width: 100%;
-  height: 100%;  
-}
-
 main .Galeria {
   border: 1px solid aquamarine;
   padding: 1rem;
@@ -44,23 +39,21 @@ main .Galeria {
 
 main .Galeria>div {
   border: 1px solid #000;
-  min-height: 106px;
-  max-height: 106px;
-  min-width: 106;
-  max-width: 106;
+  height: 106px;
 }
 
-main img {
-
-  height: 104px;
-  width: 104px;
+main .Galeria>div img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
-.grid1 {
-  display: grid;
-  colums:span2;
+main .Galeria .featured{
+  grid-row: span 2;
+  grid-column: span 2;
+  height: auto;
 }
+
 
 @media screen and (max-width: 500px) {
   body {
